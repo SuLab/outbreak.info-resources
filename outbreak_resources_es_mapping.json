@@ -123,7 +123,32 @@
     }
   },
   "correction": {
-    "type": "text"
+    "properties": {
+      "@type": {
+        "type": "text"
+      },
+      "correctionType": {
+        "type": "keyword"
+      },
+      "url": {
+        "type": "text"
+      },
+      "identifier": {
+        "type": "text",
+        "copy_to": ["all"]
+      },
+      "pmid": {
+        "type": "text",
+        "copy_to": ["all"]
+      },
+      "doi": {
+        "type": "text",
+        "copy_to": ["all"]
+      },
+      "datePublished": {
+        "type": "text"
+      }
+     }
   },
   "creator": {
     "properties": {
@@ -448,7 +473,7 @@
     "type": "keyword",
     "copy_to": ["all"]
   },
-  "relatedTo": {
+  "isRelatedTo": {
     "properties": {
       "@type": {
         "type": "keyword"
