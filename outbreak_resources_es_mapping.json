@@ -125,7 +125,7 @@
   "correction": {
     "properties": {
       "@type": {
-        "type": "text"
+        "type": "keyword"
       },
       "correctionType": {
         "type": "keyword"
